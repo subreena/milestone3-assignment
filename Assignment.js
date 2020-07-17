@@ -1,13 +1,14 @@
 // FIRST PROBLEM -- CONVERTING FEET TO MILE
 function feetToMile(feet) {
   if (feet < 0) {
-    var result = "Error! Negetive Value is not accepted";
+    var mileResult = "Error! Negetive Value is not accepted";
   }
   else {
-    var result = feet / 5280;
+    var mile = feet / 5280;
+    var mileResult= mile.toFixed(2);
   }
-  console.log("length in Mile: ", result ,"mile");
-  return result;
+  console.log("length in Mile: ", mileResult);
+  return mileResult;
 }
 // function called below--
 feetToMile();
