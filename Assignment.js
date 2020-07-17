@@ -6,7 +6,7 @@ function feetToMile(feet) {
   else {
     var result = feet / 5280;
   }
-  console.log("length in Mile: ", result, "mile");
+  console.log("length in Mile: ", result ,"mile");
   return result;
 }
 // function called below--
@@ -35,10 +35,10 @@ woodCalculator();
 // THIRD PROBLEM -- BRICK CALCULATION
 
 // NOTES---
-// BRICKS REQUIRED PER FEET = 1000;
-// HEIGHT OF PER FIRST TEN FLOORS = 15FEET;
-// HEIGHT OF PER NEXT TEN FLOORS = 12FEET;
-// HEIGHT 0F FINAL FLOORS = 10FEET;
+// BRICKS REQUIRED PER FEET = 1000
+// HEIGHT OF PER FIRST TEN FLOORS = 15FEET
+// HEIGHT OF PER NEXT TEN FLOORS = 12FEET
+// HEIGHT 0F FINAL FLOORS = 10FEET
 
 function brickCalculation(floor) {
   if (floor < 0) {
